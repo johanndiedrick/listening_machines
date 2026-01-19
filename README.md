@@ -16,6 +16,10 @@ Some things to install:
 
     `uv pip install -r requirements.txt`
 
+- Configure notebook output stripping: (could also use `pre-commit` down the line...)
+
+    `nbstripout --install`
+
 - Register the Jupyter kernel from that venv
 
     `uv run -p .venv python -m ipykernel install --user --name listening-machines --display-name "Python (.venv listening_machines)`
@@ -23,5 +27,3 @@ Some things to install:
 - Note for macOS: if pyaudio fails to build, install PortAudio first:
 
     `brew install portaudio`
-
-
