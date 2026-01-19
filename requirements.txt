@@ -1,7 +1,8 @@
 ipykernel
-pyaudio
 librosa
 matplotlib
-numpy
-soundfile
 nbstripout
+numpy
+pyserial
+sounddevice
+soundfile
