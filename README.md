@@ -8,6 +8,12 @@ Some things to install:
 
 - Install [uv](https://docs.astral.sh/uv/)
 
+- On your local machine, Clone this repo and then change into this repo's directory
+
+    `git clone https://github.com/johanndiedrick/listening_machines`
+
+    `cd listening_machines`
+
 - Create a new environment, activate your environment, and install the required libraries:
 
     `uv venv`

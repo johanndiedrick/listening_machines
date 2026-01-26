@@ -1,4 +1,5 @@
 ipykernel
+ipywidgets
 librosa
 matplotlib
 nbstripout
@@ -6,3 +7,7 @@ numpy
 pyserial
 sounddevice
 soundfile
+torch
+torchaudio
+torchcodec
+tqdm
