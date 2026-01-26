@@ -24,12 +24,8 @@ Some things to install:
 
     `uv run -p .venv python -m ipykernel install --user --name listening-machines --display-name "Python (.venv listening_machines)"`
 
-- Restart your IDE and you should be able to run the cells in the notebook after selecting the kernel named `listening_machines`
+- You should now be able to run the cells in the notebook after selecting the kernel named `listening_machines`. Restart your IDE if necessary.
 
-- Configure notebook output stripping: (could also use `pre-commit` down the line...)
+- Optional: Configure notebook for output stripping: (could also use `pre-commit` down the line...)
 
     `nbstripout --install`
-
-- Note for macOS: if pyaudio fails to build, install PortAudio first:
-
-    `brew install portaudio`
