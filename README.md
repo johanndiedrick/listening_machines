@@ -20,15 +20,15 @@ Some things to install:
 
     `source .venv/bin/activate`
 
-    `uv pip install -r requirements.txt`
+    `uv pip install -r requirements.txt -p .venv`
+
+    `uv run -p .venv python -m ipykernel install --user --name listening-machines --display-name "Python (.venv listening_machines)"`
+
+- Restart your IDE and you should be able to run the cells in the notebook after selecting the kernel named `listening_machines`
 
 - Configure notebook output stripping: (could also use `pre-commit` down the line...)
 
     `nbstripout --install`
-
-- Register the Jupyter kernel from that venv
-
-    `uv run -p .venv python -m ipykernel install --user --name listening-machines --display-name "Python (.venv listening_machines)`
 
 - Note for macOS: if pyaudio fails to build, install PortAudio first:
 
