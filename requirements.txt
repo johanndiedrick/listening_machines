@@ -5,6 +5,7 @@ librosa
 matplotlib
 nbstripout
 numpy
+openai-whisper
 opendatasets
 pandas
 pyserial
